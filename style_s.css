@@ -1,0 +1,189 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px){
+html, body
+{
+	background-color: #E6E8FA; /*kolor tla */
+	margin: 0;
+	padding: 0;
+	font-size:50%;
+	
+
+}
+
+.banner {
+	background:#1E7C7E;
+	text-align: center;
+	padding:1%;
+	font-size:small;
+}
+header > img{
+	top:0;
+	float:center;
+}
+/*---------[MENU]------------------*/
+nav
+{
+	margin:0;
+	padding-bottom:5px;
+	background:white;
+	
+}
+nav  ul{
+	display:block;
+	margin:0;
+	padding:0;
+
+}
+nav  li {
+	 display:block;
+	 background: darkblue;
+	 text-align: center;
+	 margin-top:10px;
+	 font-size: large;
+	 
+}
+nav  li a {
+	text-decoration: none;
+	font: bold 0.8em Arial, sans-serif;
+	color: white;
+}
+nav li a:active {
+	background:red;
+}
+
+/*---------[END]------------------*/
+/*---------[ARTICLE]------------------*/
+article {
+	background:#79B8FA;
+	text-align:justify;
+	margin-bottom:1%; /* Przerwa pomiedzy blokami */
+	font-size:initial;
+	
+}
+article > img {
+	margin:0;
+	padding:0;
+	width:100%;
+	max-height:auto;
+
+	
+}
+article > h3 {
+	padding-top:1%;
+}
+article > p {
+	margin-top:20%;
+	padding:1.5px;
+}
+/*---------[END]------------------*/
+/*---------[SECTION]------------------*/
+section {
+	background:#79B8FA;
+	text-align:justify;
+	margin-bottom:1%; /* Przerwa pomiedzy blokami */
+	font-size:initial;
+
+}
+section > img {
+	
+	margin:0;
+	padding:0;
+	width:100%;
+	max-height:auto;
+}
+section > h3 {
+	padding-top:1%;
+	margin-left:1.5%;
+}
+
+/*---------[END]------------------*/
+/*---------[Galeria]------------------*/
+.gallery {
+	background:#79B8FA;
+	float:center;
+	margin-bottom:5%;
+	width:100%;
+}
+.gallery img {
+	width: 100%;
+	height:auto;
+}
+.desc {
+	padding: 5%;
+	text-align:center;
+}
+.responsive {
+	padding: 0 0px;
+	padding-bottom:5%;
+	float:left;
+	width: 100%;
+}
+.clearfix:after {
+	
+	display: table;
+	clear:both;
+}
+.box1 {
+	width:100%;
+	background:aqua;
+	font-size:initial;
+}
+.box1 > img {
+	width:100%;
+	margin:0;
+	padding:0;
+	}
+.box1 > p {
+	margin-top:5%;
+	margin-bottom:2%;
+	margin: 2px;
+	padding:2px;
+}
+.box1 > h3 {
+	margin-top:0.7%;
+	margin-left:1%;
+}
+.box2 {
+	width:100%;
+	background:aqua;
+	font-size:initial;
+	margin:0;
+}
+.box2 > img {
+	width:100%;
+	padding:0;
+	margin:0;
+
+}
+.box2 > h3 {
+	text-align:center;
+}
+.box2 > p {
+	padding-left:1%;
+} 
+.box3 {
+	float:left;
+	width:100%;
+	background:aqua;
+}
+.box3 > p {
+	text-align:center;
+}
+
+.box4 {
+	float:left;
+	width:100%;
+	background:aqua; 
+	margin-bottom:10%;
+	
+}
+/*---------[END]------------------*/
+footer {
+	text-align: center;
+	padding-top:1%;
+	
+	bottom:0;
+	width:100%;
+	height: 5%;
+	background: #236B8E;
+}
+}
